@@ -1,0 +1,11 @@
+TNS_NAME: 
+(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g3bafb2be87f958_bumjqbnsrj9b5dyx_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+E-MAIL: 
+1292221854@ulife.com.br
+
+USUARIO: 
+w292221854
+
+SENHA: 
+Ritter*123456
