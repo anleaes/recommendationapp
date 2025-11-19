@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('categorias/', include('categories.urls', namespace='categories')),
 ]
+    path('conteudo/', include('content.urls', namespace='content')),   
+]
