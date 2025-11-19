@@ -2,7 +2,7 @@ from django.urls import path, include
 from . import views
 from rest_framework import routers
 
-app_name = 'content'
+app_name = 'contents'
 
 router = routers.DefaultRouter()
 router.register('', views.ContentViewSet, basename='conteúdo')

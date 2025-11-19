@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'teachers.apps.TeachersConfig',
     'categories.apps.CategoriesConfig',
-    'content.apps.ContentConfig',
+    'contents.apps.ContentsConfig',
 ]
 
 MIDDLEWARE = [
