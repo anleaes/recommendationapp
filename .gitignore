@@ -1,5 +1,13 @@
 /recommendationapp/__pycache__/*
-/apps/categories/__pycache__/*
-/apps/categories/migrations/*
-/apps/products/__pycache__/*
-/apps/products/migrations/*
+/apps/teacher/__pycache__/*
+/apps/teacher/migrations/*
+/apps/type/__pycache__/*
+/apps/type/migrations/*
+/apps/content/__pycache__/*
+/apps/content/migrations/*
+/apps/student/__pycache__/*
+/apps/student/migrations/*
+/apps/recommendation/__pycache__/*
+/apps/recommendation/migrations/*
+/apps/preferences/__pycache__/*
+/apps/preferences/migrations/*
