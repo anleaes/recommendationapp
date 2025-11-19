@@ -4,6 +4,7 @@
 class Teacher{
 -name: CharField
 -email: EmailField
+-area: Charfield
 }
 
 class Student{
@@ -25,11 +26,11 @@ class Content{
 -title: CharField
 -description: TextField
 -url: CharField
--type: ForeignKeyCategory
+-category: ForeignKeyCategory
 -teacher: ForeignKeyTeacher
 }
 
-class Type{
+class Categories{
  name: CharField
  description: TextField
 }
@@ -41,7 +42,7 @@ class Recommendetion{
 
 
 Teacher --o Content
-Type --o Content
+Category --o Content
 Student --o Recommendetion
 Student --o Preferences
 Content --o Recommendetion
