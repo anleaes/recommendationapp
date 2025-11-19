@@ -44,7 +44,7 @@ class Recommendetion{
 Teacher --o Content
 Category --o Content
 Student --o Recommendetion
-Student --o Preferences
+Student --o Preference
 Content --o Recommendetion
 
 @enduml
