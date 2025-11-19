@@ -13,7 +13,7 @@ class Student{
 -ra: CharField
 }
 
-class Preferences{
+class Preference{
 -q1: CharFieldChoicesAaE
 -q2: CharFieldChoicesAaE
 -q3: CharFieldChoicesAaE
@@ -30,7 +30,7 @@ class Content{
 -teacher: ForeignKeyTeacher
 }
 
-class Categories{
+class Category{
  name: CharField
  description: TextField
 }
