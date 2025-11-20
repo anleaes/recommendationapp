@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'contents.apps.ContentsConfig',
     'preferences.apps.PreferencesConfig',
     'students.apps.StudentsConfig',
+    'recommendations.apps.RecommendationsConfig',
 ]
 
 MIDDLEWARE = [
