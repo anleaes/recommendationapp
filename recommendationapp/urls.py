@@ -22,8 +22,7 @@ urlpatterns = [
     path('professores/', include('teachers.urls', namespace='teachers')),
     path('categorias/', include('categories.urls', namespace='categories')),
     path('conteudos/', include('contents.urls', namespace='contents')), 
-    path('perguntas/', include('preferences.urls', namespace='preferences')),  
-    path('conteudos/', include('contents.urls', namespace='contents')),  
+    path('perguntas/', include('preferences.urls', namespace='preferences')),   
     path('estudantes/', include('students.urls', namespace='students')), 
     path('recomendacoes/', include('recommendations.urls', namespace='recommendations')),
 ]
