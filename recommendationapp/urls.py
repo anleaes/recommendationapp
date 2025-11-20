@@ -25,5 +25,5 @@ urlpatterns = [
     path('perguntas/', include('preferences.urls', namespace='preferences')),  
     path('conteudos/', include('contents.urls', namespace='contents')),  
     path('estudantes/', include('students.urls', namespace='students')), 
-    path('recomendações/', include('recommendations.urls', namespace='recommendations')),
+    path('recomendacoes/', include('recommendations.urls', namespace='recommendations')),
 ]

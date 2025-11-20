@@ -5,7 +5,7 @@ from rest_framework import routers
 app_name = 'recommendation'
 
 router = routers.DefaultRouter()
-router.register('', views.ProductViewSet, basename='recomendações')
+router.register('', views.RecommendationViewSet, basename='recomendações')
 
 urlpatterns = [
     path('', include(router.urls) )

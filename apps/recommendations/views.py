@@ -4,6 +4,6 @@ from rest_framework import viewsets
 from .serializer import RecommendationSerializer
 
 # Create your views here.
-class ProductViewSet(viewsets.ModelViewSet):
+class RecommendationViewSet(viewsets.ModelViewSet):
     queryset = Recommendation.objects.all()
     serializer_class = RecommendationSerializer  
