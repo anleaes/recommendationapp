@@ -23,4 +23,6 @@ urlpatterns = [
     path('categorias/', include('categories.urls', namespace='categories')),
     path('conteudos/', include('contents.urls', namespace='contents')), 
     path('perguntas/', include('preferences.urls', namespace='preferences')),  
+    path('conteudos/', include('contents.urls', namespace='contents')),  
+    path('estudantes/', include('students.urls', namespace='students')), 
 ]
