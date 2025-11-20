@@ -21,7 +21,6 @@ class Preference(models.Model):
         ('3', 'Falta de motivação.'),
         ('4', 'Bagunça nas anotações e falta de organização.'),
     ])
-  
-  student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
   
  
